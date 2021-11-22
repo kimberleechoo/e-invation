@@ -1,4 +1,5 @@
 // var hiText =document.getElementsByClassName('what');
+$('#modalPop').hide();
 $(document).ready(function(){
     $('#modalPop').hide();
     $('#clickable').click(function(event){
