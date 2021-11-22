@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(e){
     $('#modalPop').css('display','none');
     $('#clickable').click(function(event){
         console.log('hi', event);
