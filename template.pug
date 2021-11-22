@@ -1,0 +1,18 @@
+- var blocks = 31;
+- var plates = 1;
+
+.container
+  .surface
+    - for (var b = 1;b <= blocks;++b) {
+      div(class="block b" + b)
+        .block-outer
+          .block-inner
+            .back
+            .front
+            .left
+            .right
+            .top
+    - }
+    - for (var p = 1;p <= plates;++p) {
+      div(class="plate p" + p)
+    - }
