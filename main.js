@@ -1,10 +1,8 @@
-// var hiText =document.getElementsByClassName('what');
-$('#modalPop').hide();
 $(document).ready(function(){
-    $('#modalPop').hide();
+    $('#modalPop').css('display','none');
     $('#clickable').click(function(event){
         console.log('hi', event);
-        $('#modalPop').show();
+        $('#modalPop').css('display','block');
         $('body').css("overflow","hidden");
     })
 
