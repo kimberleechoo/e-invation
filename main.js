@@ -20,6 +20,11 @@ $(document).ready(function(e){
     // });
 })
 
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('myAudio').play();
+    // document.removeEventListener('click', musicPlay);
+}
 // function myFunction() {
 //     var x = document.getElementById("myAudio").autoplay;
 //     document.getElementById("demo").innerHTML = x;
