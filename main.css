@@ -33,7 +33,7 @@
     width:70%;
     border-radius:20px;
     position:relative;
-    top:45%;
+    top:35%;
     
 }
 
@@ -41,7 +41,7 @@
     color:#000;
     font-size:30px;
     position:fixed;
-    top:46%;
+    top:36%;
     right:78px;
     z-index:1000;
     font-weight:900;

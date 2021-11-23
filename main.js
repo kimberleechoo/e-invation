@@ -20,7 +20,7 @@ $(document).ready(function(e){
     // });
 })
 
-document.addEventListener('mousemove', musicPlay);
+document.addEventListener('click', musicPlay);
 function musicPlay() {
     document.getElementById('myAudio').play();
     // document.removeEventListener('click', musicPlay);
