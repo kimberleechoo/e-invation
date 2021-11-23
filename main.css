@@ -6,7 +6,7 @@
     padding: 0;
   }
 .border{
-    background-color:#650000;
+    background-color:#5d0808;
     border-radius:42px;
     height:80%;
     margin: 40px 20px;
@@ -14,9 +14,17 @@
     padding-top:9px;
 }
 
+.wreath{
+  width: 260px;
+  position: sticky;
+  /* left: 55px;
+  top: 154px; */
+  /* z-index: 20; */
+}
+
 #modalPop{
     position:fixed;
-    width:240px;
+    width:20px;
     height:30px;
     left:0;
     top:0;
@@ -57,9 +65,11 @@ h1 {
       /* text-transform: uppercase; */
       color: white;
       /* font-weight:900; */
-      padding-top:25px;
+      padding-top:30px;
       font-size:25px;
       line-height:37px;
+      margin-bottom:20px;
+      /* margin-top:20px; */
   }
 
   .details{
@@ -74,7 +84,7 @@ h1 {
       padding-bottom:20px;
       border-radius:25px */
   }
-  .locationLink, .date, .time, .rsvp{
+  .locationLink, .date, .time, .rsvp, .dress{
       /* margin-top:20px; */
       margin-bottom:7px;
       text-decoration: none;
@@ -105,7 +115,8 @@ h1 {
   }
   
   #christmas {
-    background: #162a4e;
+    border-color:transparent;
+    background: #03173d;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -115,9 +126,13 @@ h1 {
     background-image: -moz-linear-gradient(#0c1d38, #1a3158);
     background-image: -webkit-linear-gradient(#0c1d38, #1a3158);
     background-image: linear-gradient(#0c1d38, #1a3158);
-    position: relative;
-    width: 220px;
-    height: 220px;
+    /* position: relative; */
+    position:absolute;
+    left:56px;
+    right:59px;
+    top:178px;
+    width: 150px;
+    height: 150px;
     margin: 50px auto;
     overflow: hidden;
     /* iOS hack for border radius bleed with transforms */
