@@ -14,7 +14,7 @@ $(document).ready(function(e){
     // $( window ).resize(function() {
         if ($(window).width() > 667)
         {
-           alert('sorry this is a mobile only website');
+           alert('sorry this is a mobile-only website, because I am very lazy hahaha');
             
         }
     // });
