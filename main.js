@@ -10,5 +10,13 @@ $(document).ready(function(e){
         $('#modalPop').hide();
         $('body').css('overflow','initial');
     })
+    // 
+    // $( window ).resize(function() {
+        if ($(window).width() > 667)
+        {
+           alert('sorry this is a mobile only website');
+            
+        }
+    // });
 })
 

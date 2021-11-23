@@ -58,6 +58,7 @@ color:rgb(111, 9, 9);
       color: white;
       /* font-weight:900; */
       padding-top:25px;
+      font-size:20px;
   }
 
   .details{
@@ -82,6 +83,7 @@ color:rgb(111, 9, 9);
   }
   .locationLink a{
       font-style: italic;
+      cursor: pointer;
   }
   
   #clickable{
@@ -90,6 +92,7 @@ color:rgb(111, 9, 9);
       font-family: 'Playfair Display', serif;
       font-style:italic;
     text-transform: lowercase;
+    cursor:pointer;
   }
   a{
       text-decoration: none;
@@ -112,8 +115,8 @@ color:rgb(111, 9, 9);
     background-image: -webkit-linear-gradient(#0c1d38, #1a3158);
     background-image: linear-gradient(#0c1d38, #1a3158);
     position: relative;
-    width: 182px;
-    height: 182px;
+    width: 220px;
+    height: 220px;
     margin: 50px auto;
     overflow: hidden;
     /* iOS hack for border radius bleed with transforms */
